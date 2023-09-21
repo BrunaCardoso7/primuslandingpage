@@ -1,10 +1,59 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: center; */
   align-items: center;
   min-height: 100vh;
   background-image: url(troca-de-oleo.webp);
   background-size: cover;
   background-position: center;
 }
+.main h1{
+  color: aliceblue;
+  text-align: center;
+  font-size: 9em;
+  margin-top: 30px;
+}
+.main p{
+  width: 80vw;
+  color: aliceblue;
+  font-size: 6em;
+  text-align: center;
+  margin-top: 18px;
+}
+/* page.module.css */
+.banner-wrapper{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 3px solid aliceblue;
+  padding: 10px 20px;
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  font-size: 4em;
+  margin-right: 50px;
+}
+.banner-ticket-preco{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+.banner-ticket-preco .text-span{
+  font-size: 3.5em;
+  font-weight: 700;
+}
+.banner-ticket-preco .wrapper-120{
+  color: rgb(6, 230, 6);
+  font-size: 9.6em;
+  font-weight: 800;
+}
+.banner-ticket-preco .wrapper-00{
+  color: rgb(6, 230, 6);
+  font-size: 6em;
+  font-weight: 800;
+}
+

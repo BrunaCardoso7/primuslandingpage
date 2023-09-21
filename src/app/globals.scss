@@ -85,3 +85,19 @@ body {
   overflow-x: hidden;
   font-size: 62.5%;
 }
+::-webkit-scrollbar {
+
+  width: 8px; /* Defina a largura da barra de rolagem */
+  min-width: 6px;
+}
+
+/* Personalize o polegar */
+::-webkit-scrollbar-thumb {
+  background: rgb(178, 178, 178); /* Cor de fundo do polegar */
+  border-radius: 6px; /* Borda arredondada do polegar */
+}
+
+/* Personalize a pista */
+::-webkit-scrollbar-track {
+  background: #545454; /* Cor de fundo da pista */
+}
