@@ -1,0 +1,41 @@
+.menu-menu .nav-bar{
+    padding: 10px 0;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.657);
+    top: 23.8%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin-right: 20px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    @media (min-width:374px){
+        .menu-menu .nav-bar{
+            height: 24vh;
+            top:22%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    }
+    @media(min-width: 900px){
+        .nav-bar{
+            display: block;
+            #btn-fale-conosco{
+                border: 2px solid white;
+                border-radius: 14px; /* Borda arredondada de 14px */
+                padding: 5px 20px;
+            }
+            #btn-fale-conosco:hover{
+                color: aliceblue;
+                border: 2px solid #00cc00;
+                background-color: #00cc00; /* Cor de fundo no hover */
+                transition: background-color 0.3s, border-color 0.3s;
+            }
+        }
+    }
+}

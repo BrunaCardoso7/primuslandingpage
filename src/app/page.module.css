@@ -4,4 +4,7 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+  background-image: url(troca-de-oleo.webp);
+  background-size: cover;
+  background-position: center;
 }

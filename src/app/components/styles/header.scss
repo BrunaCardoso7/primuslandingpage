@@ -1,24 +1,80 @@
-.header-wrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: red;
+header{
+    z-index: 999;
     width: 100vw;
-    height: 10vh;
-    // border-radius: 0 0 20px 20px;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    .header-wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: red;
+        width: 100vw;
+        height: 10vh;
+        // border-radius: 0 0 20px 20px;
+        padding: 10px;
+    
+        .logo{
+            color: aliceblue;
+            font-size: 2.1rem;
+            margin-right:10%;
+            padding: 10px;
+        
+        }
+        .nav-bar a{
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 1.6rem;
+            margin: 8px;
+        }
+        .nav-bar a:hover{
+            color: rgb(255, 255, 123);
+        }
+        @media(min-width: 470px){
+            .logo{
+                font-size: 2.4rem;
+                margin-right:35%;
+            }
+        }
+    }
 }
-.header-wrapper .logo{
-    color: aliceblue;
-    font-size: 1.8rem;
-    margin-right: 15%;
-    padding: 10px;
-
+@media(min-width: 900px)and (max-width: 1063px){
+    header{
+        width: 80%;
+        .header-wrapper{
+            background-color: red;
+            width: 100%;
+            border-radius: 0 0 20px 20px;
+            .logo{
+                color: aliceblue;
+                font-size: 2.2rem;
+                margin-right:2vw;
+                padding: 10px;
+                
+            }
+        } 
+    }
 }
-.header-wrapper .nav-bar a{
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 1.3rem;
-    margin: 10px 0;
+@media(min-width: 1064px){
+    header{
+        width: 80vw;
+        .header-wrapper{
+            background-color: red;
+            width: 100vw;
+            border-radius: 0 0 20px 20px;
+            .logo{
+                color: aliceblue;
+                font-size: 2.3rem;
+                margin-right:10vw;
+                padding: 10px;
+                
+            }
+            .nav-bar a{
+                color: aliceblue;
+                text-decoration: none;
+                font-size: 1.8rem;
+                margin: 10px;
+            }
+        } 
+    }
 }
