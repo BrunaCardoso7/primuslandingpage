@@ -25,8 +25,20 @@ export default function Home() {
         </div>
         <ButonLoc/>
       </main>
-      <section>
-        <h1>ola bom dia</h1>
+      <section className={styles['wrapper-catalogo']}>
+        <h2>Catálogo de produtos</h2>
+        <p>Produtos de confiança e qualidade</p>
+        <div className={styles['cards']}>
+          <div className={styles['card-prod']}>
+            <img src="./images/" alt="" />
+          </div>
+          <div className={styles['card-prod']}>
+
+          </div>
+          <div className={styles['card-prod']}>
+
+          </div>
+        </div>
       </section>
     </>
 

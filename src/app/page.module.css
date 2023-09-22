@@ -56,4 +56,36 @@
   font-size: 6em;
   font-weight: 800;
 }
-
+.wrapper-catalogo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper-catalogo h2{
+  margin-top: 10px;
+  font-size: 9.3em;
+  color: #6C6C6C;
+}
+.wrapper-catalogo p{
+  margin-top: 10px;
+  font-size: 5em;
+  color: #4C6DC2;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  margin: 40px 0;
+  
+}
+.cards .card-prod{
+  border: 2px solid  #6C6C6C;
+  height: 350px;
+  width: 250px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+}
