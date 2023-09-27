@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import React from 'react';
 import './styles/header.scss'
@@ -9,7 +10,7 @@ export function Header(){
     <header>
         <div className="header-wrapper">
             <div className="logo">
-                <h3>Primus<span> motores</span></h3>
+                <img className="logo" src="/images/logoPrimus.png" alt="" />
             </div>
             <Menu />
             <Navbar/>

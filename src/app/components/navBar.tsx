@@ -11,8 +11,8 @@ const Navbar: React.FC<NavbarProps> = ({  }) => {
         <>
             <div className="nav-bar">
                 <a className='link' href="#">Home</a>
-                <a className='link' href="#">Localização</a>
                 <a className='link' href="#">Catálogo</a>
+                <a className='link' href="#">Localização</a>
                 <a className='link' id='btn-fale-conosco' href="#">Fale conosco</a>
             </div>
         </>
