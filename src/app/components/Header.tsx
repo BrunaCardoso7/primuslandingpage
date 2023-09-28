@@ -10,7 +10,7 @@ export function Header(){
     <header>
         <div className="header-wrapper">
             <div className="logo">
-                <img className="logo" src="/images/logoPrimus.png" alt="" />
+                <img className="logo" src="/images/prmus-removebg-preview.png" alt="" />
             </div>
             <Menu />
             <Navbar/>
